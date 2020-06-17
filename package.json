@@ -78,7 +78,7 @@
     "test": "jest",
     "check": "${npm_execpath} run lint && ${npm_execpath} run types && ${npm_execpath} run test",
     "release": "${npm_execpath} install && ${npm_execpath} run check && ${npm_execpath} run build && cd lib/ && ${npm_execpath} publish --no-git-tag-version",
-    "postinstall": "${npm_execpath} install && ${npm_execpath} run check && ${npm_execpath} run build"
+    "postinstall": "${npm_execpath} install && ${npm_execpath} run build"
   },
   "jest": {
     "collectCoverageFrom": [
