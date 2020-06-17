@@ -1,13 +1,13 @@
 {
   "name": "babel-plugin-i18next-extract",
   "version": "0.1.0",
-  "description": "Statically extract translation keys from i18next application.",
+  "description": "Statically extract translation keys from i18next application. Fork by Rentle",
   "engines": {
     "node": ">=10.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gilbsgilbs/babel-plugin-i18next-extract.git"
+    "url": "https://github.com/rentle/babel-plugin-i18next-extract.git"
   },
   "keywords": [
     "babel-plugin",
@@ -21,7 +21,7 @@
   ],
   "homepage": "https://i18next-extract.netlify.com/",
   "bugs": {
-    "url": "https://github.com/gilbsgilbs/babel-plugin-i18next-extract/issues"
+    "url": "https://github.com/rentle/babel-plugin-i18next-extract/issues"
   },
   "author": "Gilbert Gilb's <gilbsgilbert@gmail.com>",
   "license": "MIT",

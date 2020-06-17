@@ -159,6 +159,7 @@ export default function exportTranslationKeys(
     }
 
     cache.currentTranslationFiles[filePath] = translationFile;
+    cache.originalTranslationFiles[filePath] = translationFile;
 
     // Finally do the export
     const directoryPath = path.dirname(filePath);
